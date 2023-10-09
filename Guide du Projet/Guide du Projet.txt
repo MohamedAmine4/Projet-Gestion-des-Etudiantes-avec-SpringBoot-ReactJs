@@ -1,0 +1,85 @@
+
+mahmoud.benji99@gmail.com
+
+Bonjour,
+
+Je suis heureux de vous informer que ce dossier "Projet + Rapport PFE 2022_2023 (Gestion des Notes des Etudiants)" contient un "Guide du Projet". Toutes les fonctionnalités sont expliquées dans ce guide.
+
+    Les étudiants qui ont réalisé ce projet :
+         + BOUSOUALEF Mohamed Amine
+         + CHAHBI Abdessamad
+  
+
+   Le sujet du projet :
+        + Application pour la gestion des notes des étudiants de l'EPG
+
+
+************* La partie I : sous-dossier "Rapport Final du PFE 2022_2023" ***********************************************************************************
+    N.B : Chapitre 3 du Rapport (La presentation de l'application)
+Avant de commencer à tester le projet, vous devrez lire le Chapitre 3 du rapport, car dans ce chapitre, il y a la présentation de l'application. De plus, ce chapitre explique déjà, à l'aide de captures d'écran, comment utiliser l'application.
+************************************************************************************************************************************************************
+
+************* La partie II (Eclipse + VS Code) : sous-dossier "Projet Complet Gestion des Notes  PFE 2022_2023 (SPRING BOOT + REACT)" ****************************************************************************
+===> Cette application est développée avec SPRING BOOT pour le back-end et REACT pour le front-end, ce qui signifie que nous avons besoin de deux IDE : 
+      + IDE 1 : Pour SPRING BOOT, nous pouvons utiliser des IDE tels que "Eclipse", "Spring Tool Suite" ou d'autres IDE similaires.
+      + IDE 2 : Pour REACT, nous pouvons utiliser des IDE comme "Visual Studio Code" ou d'autres IDE disponibles."
+===> Dans ce dossier existe deux partie (deux sous-dossiers) , un dossier "Gestion_Notes_Spring" pour SPRING BOOT et un dossier "Projet Gestion Notes React" pour REACT
+
+********Les etapes pour ouvrir le projet developpe par SPRING BOOT dans "Eclipse" comme IDE :*********
+Pour tester le projet dans "Eclipse", suivez ces étapes simples :
+    1- Ouvrez un serveur tel que "XAMPP" et démarrez "Apache" et "MySQL" dans "XAMPP".
+    2- Une fois que "XAMPP" est démarré, cliquez sur l'icône "Admin" de "MySQL" dans "XAMPP" pour ouvrir le site "http://localhost/phpmyadmin/".
+    3- Une fois le site "http://localhost/phpmyadmin/" ouvert, créez une base de données nommée "mydatabase_springboot_react". Ce nom est obligatoire.
+    4- Une fois la base de données "mydatabase_springboot_react" créée, dans le dossier principal "Projet + Rapport PFE 2022_2023 (Gestion des Notes des Étudiants)", vous trouverez le fichier "mydatabase_springboot_react.sql". Importez ce fichier dans cette base de données.
+    5- Une fois le fichier "mydatabase_springboot_react.sql" importé dans cette base de données, ouvrez Eclipse.
+    6- Ouvrez Eclipse.
+    7- Cliquer sur "import projects...."
+    8- Choisir "Projects from Floder or Archive"
+    9- Dans "Import source", cliquer sur "Directory" et choisir le dossier "Gestion_Notes_Spring"  (c'est-à-dire, naviguez dans le dossier principal jusqu'à trouver le dossier "Gestion_Notes_Spring"). Il est obligatoire d'importer ce dossier précisément dans Eclipse, et non un autre dossier, afin d'éviter les erreurs.
+N.B : le dossier "Gestion_Notes_Spring" est un sous-dossier existe dans le sous-dossier "Projet Complet Gestion des Notes  PFE 2022_2023 (SPRING BOOT + REACT)" et aussi ce dernier dossier exsite dans le dossier principale "Projet + Rapport PFE 2022_2023 (Gestion des Notes des Etudiants)".
+N.B : Tous les dossiers precedent disponibles dans le dossier principale "Projet + Rapport PFE 2022_2023 (Gestion des Notes des Etudiants)"
+    10- Cliquer sur "Finish" 
+Le projet sera maintenant importé dans Eclipse et vous pouvez commencer à tester le projet. (Cliquer sur "Run")
+N.B: Mais Avant de lancer ce projet avec "Run" dans Eclipse, assurez-vous d'ouvrir l'IDE "Visual Studio Code" pour le projet développé en REACT. Cette application a été développée avec SPRING BOOT et REACT ensemble.
+N.B : La fonction "main" (nommée : "GestionNotesSpringApplication.java") du projet "SPRING BOOT" se trouve dans le package "applicationWeb". Ce package est situé dans le dossier "src/main/java". Donc ouvrir cette fonction "main" pour Cliquer sur "Run" d'Eclipse.
+
+********Les etapes pour ouvrir le projet developpe par REACT dans "Visual Studio Code" comme IDE :*********
+Pour tester le projet dans "Visual Studio Code", suivez ces étapes simples :
+   1- Ouvrez l'IDE "Visual Studio Code" et cliquez sur "File", puis sélectionnez "Open Folder".
+   2- Naviguez jusqu'au dossier principal "Projet + Rapport PFE 2022_2023 (Gestion des Notes des Étudiants)" pour trouver le sous-dossier "Projet Complet Gestion des Notes PFE 2022_2023 (SPRING BOOT + REACT)". À l'intérieur de ce dossier, vous trouverez le dossier "Projet Gestion Notes React". Sélectionnez ce dossier dans "Visual Studio Code".
+   3- Il est obligatoire d'ouvrir exactement le dossier "Projet Gestion Notes React" dans "Visual Studio Code" afin d'éviter les erreurs.
+N.B : le dossier "Projet Gestion Notes React" est un sous-dossier existe dans le sous-dossier "Projet Complet Gestion des Notes  PFE 2022_2023 (SPRING BOOT + REACT)" et aussi ce dernier dossier exsite dans le dossier principale "Projet + Rapport PFE 2022_2023 (Gestion des Notes des Etudiants)".
+   4- Si le dossier "Projet Gestion Notes React" est correctement ouvert dans "VS Code", cliquez sur "Terminal", puis sur "New Terminal".
+   5- Lorsque le "Terminal" est ouvert dans "VS Code", exécutez la commande "npm install --force" et attendez que l'installation soit terminée.
+   6- Si l'installation s'est terminée avec succès, lancez maintenant la commande "npm start".
+   7- Mais Avant de lancer la commande "npm start" dans "Visual Studio Code", assurez-vous d'avoir déjà démarré le projet dans Eclipse en utilisant l'option "Run".
+N.B : La fonction "main" (nommée : "GestionNotesSpringApplication.java") du projet "SPRING BOOT" se trouve dans le package "applicationWeb". Ce package est situé dans le dossier "src/main/java". Donc ouvrir cette fonction "main" pour Cliquer sur "Run" d'Eclipse.
+   8- Une fois que vous avez démarré le projet dans Eclipse et exécuté la commande "npm start" dans Visual Studio Code, l'interface principale de l'application pour l'Authentification s'ouvrira dans votre navigateur (par exemple, Google Chrome, Microsoft Edge ou un autre navigateur).
+   9- Dans cette interface principale d'Authentification, il y a 4 types d'utilisateurs (Admin, Responsable, Professeur, Étudiant).
+   10- Pour une compréhension plus détaillée, veuillez lire le chapitre 3 du rapport où toutes les interfaces de l'application sont expliquées en détail.
+N.B : La commande "npm install --force" est utilisée uniquement une fois pour installer les bibliothèques. Si vous souhaitez démarrer l'application ultérieurement, utilisez uniquement la commande "npm start" dans le "Terminal" de "Visual Studio Code". Assurez-vous que le projet est déjà en cours d'exécution dans "Eclipse" avant d'utiliser la commande "npm start" dans "VS Code".
+
+*********DES EXEMPLES POUR ACCEDER A LES INTERFACES - AUTHENTIFICATION (Admin - Responsable - Professeur - Etudiant)******************************
+Si vous souhaitez vous connecter à l'interface d'administration (Admin), vous aurez besoin des informations d'identification suivantes :
+    Login : CN47852   
+    Password : CN47852
+====> Un seul Admin existe dans l'application avec le CIN = CN47852 , et Login c'est le CIN (Login == CIN)
+Pour accéder à l'interface du Responsable, veuillez utiliser les informations d'identification suivantes :
+    Login : JM62819
+    Password : JM62819
+Pour accéder à l'interface du Professeur, veuillez utiliser les informations d'identification suivantes :
+    Login : GR36714
+    Password : GR36714
+Pour accéder à l'interface de l'Etudiant, veuillez utiliser les informations d'identification suivantes :
+    Login : JK63289
+    Password : JK63289
+======> Ces utilisateurs sont fournis uniquement à titre d'exemples et ils existent déjà dans la base de données.
+======> Il y a un seul administrateur (Admin) qui gère l'application avec le CIN == CN47852
+**************************************************************************************************************************************************************************
+
+
+
+
+
+
+

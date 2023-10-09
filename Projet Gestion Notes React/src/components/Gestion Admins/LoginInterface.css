@@ -1,0 +1,138 @@
+.main-login {
+    min-height: 100vh;
+    min-width: 100vw;
+    max-height: 100vh;
+    max-width: 100vw;
+     /* overflow: hidden; Empêche le défilement horizontal */
+    overflow-x: hidden;
+    background: linear-gradient(to right, rgb(192, 186, 186) 50%, #4dd6b6 50%);
+  }
+  
+.login-contain {
+  height: 90vh;
+  width: 90%;
+  background: linear-gradient(to right bottom, rgba(236, 236, 236, 0.7), rgba(236, 236, 236, 0.4));
+  border-radius: 1rem;
+  margin: 2rem auto;
+  box-shadow: 0.5rem 0.5rem 2rem -1rem rgb(58, 57, 57);
+  display: flex;
+  justify-content: space-between; /* Utiliser l'espacement entre les éléments */
+  align-items: center;
+}
+
+.left-side {
+  width: 50%; /* Définir une largeur fixe pour la partie gauche */
+  padding: 2rem;
+  flex: 1;
+  margin-bottom: 2%;
+}
+
+.right-side {
+  width: 50%; /* Définir une largeur fixe pour la partie droite */
+  padding: 2rem;
+  flex: 1;
+}
+
+
+.welcomeimg {
+  margin-bottom: 2%;
+}
+
+  
+  .Link{
+      text-decoration: none;
+      color:#4dd6b6;
+      transition:all 0.3s ease;
+      }
+        &:hover{
+        transform: translateY(-5px);
+      } 
+  
+  .img-class{
+    height: 4.5rem;
+    #img-id{
+      height: 100%;
+      width:30%;
+      object-fit:cover;
+    }
+  }
+  .input-login {
+    display: block;
+    border: none;
+    height: 2.6rem;
+    width: 85%;
+    margin:auto;
+    margin-bottom: 1.5rem;
+    padding:0.2rem 1rem ;
+    color:gray;
+    transition:all 0.1s ease-in-out;
+  &:focus {
+      outline: none;
+      border: none;
+    }
+    &:hover{
+      outline:0.5px solid #4dd6b6;
+      box-shadow: 2px 2px 9px -1px #4dd6b6;
+    }
+  }
+  
+    #sub-butt{
+      width: 25%;
+      background: #4dd6b6 ;
+      color:white;
+      border:none;
+      margin-top: 2%;
+      margin-left: 35%;
+      cursor:pointer;
+      padding:0.5rem 1rem; 
+      transition:all 0.2s ease;
+      &:hover{
+        box-shadow: 4px 3px 9px -1px gray;
+        transform:translateY(-5px);
+     }
+   }
+
+   
+    /* .label-label{
+      display:block;
+      text-align: left;
+      width:78%;
+      margin:auto;
+      font-size: small;
+      color:gray;
+      margin-bottom:0.5rem;
+    } */
+  
+  
+    
+   /* 
+   
+      <div className="main-login">
+        <div className='login-contain'>
+        <div className='left-side'>
+          <div className="img-class">
+          //  {<img src={logo} alt="" id="img-id" srcSet=""/>}
+            <h3>Sing In</h3>
+          </div>
+          <form onSubmit={handlesubmit}>
+            <label htmlFor="email1">Email</label>
+          <input placeholder="Enter your email..." className="input-login" type="email" value={emailval} 
+          onChange={(e)=>{setemailval(e.target.value)}} id="email1"/>
+          <label htmlFor="pwd1">Password</label>
+          <input placeholder="Enter password" className="input-login" type="password" value={passval} 
+            onChange={(e)=>{setpassval(e.target.value)}} id="pwd1"/>
+        <button type="submit" id="sub-butt">  <Link className="Link" to='./Admin'> Submit</Link></button>
+          </form>
+        </div>
+        <div className='right-side'>
+          <div className="welcomeNote"> 
+          <h4 className="wel">Welcome Back!</h4>
+          </div>
+          <div className="welcomeimg">
+            <img src={welcomeimg} id="wel-img-id" alt='' srcSet=""/>
+          </div>
+        </div>
+      </div>
+      </div>
+  
+   */
